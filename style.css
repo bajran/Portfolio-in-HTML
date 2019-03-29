@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 100px;
+  border: 1px solid white;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.name {
+  padding-top: 14px;
+  font-size: 4em;
+  color: #18ba60;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em;
+  color: #ffff;
+}
+
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(194, 181, 181, 0.1)),
+    url(./tt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10em 0;
+  color: #ffff;
+  overflow: auto;
+}
+
+.content-intro {
+  margin-top: 180px;
+}
+
+.content-intro h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content-intro span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.button-intro {
+  background: #18ba60;
+  padding: 0.5em 2em;
+  border: 2px solid #18ba60;
+  color: #ffff;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s linear;
+}
+
+.button-intro:hover {
+  color: black;
+  background: #ffff;
+}
+
+.about-me {
+  padding: em 0;
+  margin: 0 auto;
+}
+
+.about-me h4 {
+  color: #18ba60;
+}
+
+.content-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-narrow {
+  float: left;
+  overflow: hidden;
+  margin-top: 2em;
+  clear: both;
+}
+
+.col-wide {
+  width: 70%;
+  float: right;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 2em;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.social-icons a {
+  border-radius: 50%;
+  border: 1px solid #444444;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  display: block;
+  color: #444444;
+  transition: all 0.2s ease-in;
+  font-size: 1em;
+}
+
+.social-icons a:hover {
+  border: 1px solid #18ba60;
+  color: #18ba60;
+}
+
+.work {
+  clear: both;
+  padding: 5em 0;
+  overflow: auto;
+  background: green;
+  color: #ffff;
+}
+
+.contact-me {
+  padding: 5em 0;
+  overflow: auto;
+}
+
+footer {
+  background: #000000;
+  color: #ffff;
+  padding: 5em 0;
+  overflow: auto;
+}
